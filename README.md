@@ -14,3 +14,10 @@ git remote -v
 ```
 git push origin master/branch
 ```
+
+4. git configuration file
+```
+git config –global user.name “myname”
+
+git config --global user.email "abc@gmail.com"
+```
