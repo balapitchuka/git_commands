@@ -2,7 +2,7 @@
 
 1. connect remote repo to local repository.
 ```
-git remote add origin https://github.com/balu3937/git.git
+git remote add origin remote_repo_url
 ```
 
 2. git remote url for pull, push
