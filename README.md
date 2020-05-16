@@ -1,4 +1,4 @@
-# git
+## git commands
 
 ### Connect Remote Repo To Local Repository.
 ```
@@ -25,7 +25,7 @@ git config --global user.email "abc@gmail.com"
 1. Remove everything tracked by git
 ```git
 git rm -r --cached .
-```
+
 * rm is the remove command
 * -r will allow recursive removal
 * -–cached will only remove files from the index. Your files will still be there.
@@ -34,11 +34,11 @@ git rm -r --cached .
 * **Caution : The rm command can be unforgiving. If you wish to try what it does beforehand, add the -n or --dry-run flag to test things out **
 
 2. Add everything again
-```
+
 git add .
-```
+
 
 3. Commit
-```
+
 git commit -m "message here"
 ```
