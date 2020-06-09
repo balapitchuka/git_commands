@@ -40,3 +40,8 @@ git add .
 3. Commit
 git commit -m "message here"
 ```
+
+### The “fatal: refusing to merge unrelated histories” Git error
+```
+git pull origin master --allow-unrelated-histories
+```
