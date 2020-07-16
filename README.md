@@ -1,4 +1,4 @@
-## git commands
+## Git Commands
 
 ### connect remote repo to local repository.
 ```
