@@ -1,27 +1,27 @@
 ## Git Commands
 
-### connect remote repo to local repository.
+### Connect `remote` repo to `local` repository.
 ```
-git remote add origin remote_repo_url
+git remote add origin <remote_repo_url>
 ```
 
-### git remote url for pull, push
+### Git remote url for pull, push
 ```
 git remote -v
 ```
 
-### push to master/branch
+### Push to master/branch
 ```
 git push origin master/branch
 ```
 
-### git configuration file
+### Git configuration file
 ```
 git config –global user.name “myname”
 
 git config --global user.email "abc@gmail.com"
 ```
-### getting rid of files already added/committed to git repository and then add them to your .gitignore; (these files will still be present in your repository index)
+### Getting rid of files already added/committed to git repository and then add them to your .gitignore; (these files will still be present in your repository index)
 ```
 1. Remove everything tracked by git
 git rm -r --cached .
@@ -44,4 +44,11 @@ git commit -m "message here"
 ### The “fatal: refusing to merge unrelated histories” Git error
 ```
 git pull origin master --allow-unrelated-histories
+```
+
+### Find all the files `tracked` by Git
+```
+git ls-tree -r <branch_name> --name-only
+Example:
+git ls-tree -r master --name-only
 ```
