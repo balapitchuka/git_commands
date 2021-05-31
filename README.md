@@ -8,28 +8,26 @@ Installed git vesion
 > git --version
 
 
-### Connect `remote` repo to `local` repository.
-```
-git remote add origin <remote_repo_url>
-```
+Connect `remote` repo to `local` repository.
+> git remote add origin <remote_repo_url>
 
-### Git remote url for pull, push
-```
-git remote -v
-```
+
+Git remote url for pull, push
+> git remote -v
+
 
 ### Push to master/branch
 ```
 git push origin master/branch
 ```
 
-### Git configuration file
-```
-git config –global user.name “myname”
+Git configuration file
 
-git config --global user.email "abc@gmail.com"
-```
-### Getting rid of files already added/committed to git repository and then add them to your .gitignore; (these files will still be present in your repository index)
+> git config –global user.name “myname”
+
+> git config --global user.email "abc@gmail.com"
+
+Getting rid of files already added/committed to git repository and then add them to your .gitignore; (these files will still be present in your repository index)
 ```
 1. Remove everything tracked by git
 git rm -r --cached .
@@ -49,12 +47,12 @@ git add .
 git commit -m "message here"
 ```
 
-### The “fatal: refusing to merge unrelated histories” Git error
-```
-git pull origin master --allow-unrelated-histories
-```
+The “fatal: refusing to merge unrelated histories” Git error
 
-### Find all the files `tracked` by Git
+> git pull origin master --allow-unrelated-histories
+
+
+Find all the files `tracked` by Git
 ```
 git ls-tree -r <branch_name> --name-only
 Example:
