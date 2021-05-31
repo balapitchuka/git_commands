@@ -1,5 +1,13 @@
 ## Git Commands
 
+
+Version number for BASH (Bourne Again Shell) that is running on the platform.
+> echo $BASH_VERSION
+
+Installed git vesion
+> git --version
+
+
 ### Connect `remote` repo to `local` repository.
 ```
 git remote add origin <remote_repo_url>
