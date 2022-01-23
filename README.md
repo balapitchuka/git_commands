@@ -8,8 +8,12 @@
 ## Levels Of GIT Config
 There are 3 levels of git config; project, global and system.
 - project: Project configs are only available for the current project and stored in `.git/config` in the project's directory.
+    - git config user.name "John Doe"
 - global: Global configs are available for all projects for the current user and stored in `~/.gitconfig`.
+    - git config --global user.name "John Doe"
 - system: System configs are available for all the users/projects and stored in `/etc/gitconfig`.
+    - git config --system user.name "John Doe" 
+
 
 
 ## GIT Commands
