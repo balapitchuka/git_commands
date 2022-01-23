@@ -5,6 +5,13 @@
 - [git-cheat-sheet](https://github.com/arslanbilal/git-cheat-sheet#readme)
 
 
+## Levels Of GIT Config
+There are 3 levels of git config; project, global and system.
+- project: Project configs are only available for the current project and stored in `.git/config` in the project's directory.
+- global: Global configs are available for all projects for the current user and stored in `~/.gitconfig`.
+- system: System configs are available for all the users/projects and stored in `/etc/gitconfig`.
+
+
 ##### Version number for BASH (Bourne Again Shell) that is running on the platform.
 ```
 $ echo $BASH_VERSION
