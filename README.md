@@ -12,6 +12,8 @@ There are 3 levels of git config; project, global and system.
 - system: System configs are available for all the users/projects and stored in `/etc/gitconfig`.
 
 
+## GIT Commands
+
 ##### Version number for BASH (Bourne Again Shell) that is running on the platform.
 ```
 $ echo $BASH_VERSION
