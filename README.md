@@ -86,3 +86,8 @@ git ls-tree -r <branch_name> --name-only
 Example:
 git ls-tree -r master --name-only
 ```
+
+Get the root directory of your current Git repository
+```git
+git rev-parse --show-toplevel
+```
