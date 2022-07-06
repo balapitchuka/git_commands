@@ -87,7 +87,16 @@ Example:
 git ls-tree -r master --name-only
 ```
 
-Get the root directory of your current Git repository
+`rev-parse` usages
 ```git
-git rev-parse --show-toplevel
+
+# Get the root directory of your current Git repository
+> git rev-parse --show-toplevel
+
+# Get the path of .git folder in git repository
+> git rev-parse --git-dir
+
+> git rev-parse --is-inside-git-dir
+
+> git rev-parse --is-inside-work-tree
 ```
